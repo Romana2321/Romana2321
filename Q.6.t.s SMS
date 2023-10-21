@@ -53,9 +53,9 @@ let smClasses = [
 ];
 
 let smStudents = [
-    {uqIdStudentPk:'230101',   name:   'Hareem Shah',     uqIdClassFk:'2301'},
-    {uqIdStudentPk:'230501',   name:   'Mia khalifa',     uqIdClassFk:'2305'},
-    {uqIdStudentPk:'230301',   name:   'Sunny Leone',     uqIdClassFk:'2303'},
+    {uqIdStudentPk:'230101',   name:   'Hira',     uqIdClassFk:'2301'},
+    {uqIdStudentPk:'230501',   name:   'Mehwish',     uqIdClassFk:'2305'},
+    {uqIdStudentPk:'230301',   name:   'Kashif',     uqIdClassFk:'2303'},
 ];
 
 //------------------------------------------------------------------------------
@@ -63,7 +63,7 @@ let smStudents = [
 //------------------------------------------------------------------------------
 
 async function welcomeFunc(welcomeMessage:string ) {
-    let rainbowTitle = chalkAnimation.neon(chalk.blueBright("Welcome To "+ welcomeMessage +" App!\n\nCoded By Zeeshan Abbas\n"));
+    let rainbowTitle = chalkAnimation.neon(chalk.blueBright("Welcome To "+ welcomeMessage +" App!\n\nCoded By Rumana Anjum\n"));
     await stopTime();
     rainbowTitle.stop();
 };
